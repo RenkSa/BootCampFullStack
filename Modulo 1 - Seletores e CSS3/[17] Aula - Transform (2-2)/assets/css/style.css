@@ -1,0 +1,21 @@
+div {
+    background-color: #ff0000;
+    width: 200px;
+    height: 200px;
+
+    /*position: fixed;/*utilizado no curso*/
+    /*right: 0;/*utilizado no curso*/
+    /*bottom: 0;/*utilizado no curso*/
+
+    margin: auto;
+    /*transform: rotate(30deg);/* rotacionando a 30 graus sentido horario*/
+    /*transform: rotate(-30deg);/* rotacionando a 30 graus sentido anti-horario*/
+    /*transform: rotateX(30deg);/* rotacionando a 30 graus horizontal*/
+    /*transform: rotateY(30deg);/* rotacionando a 30 graus vertical*/
+    /*transform: rotateZ(30deg);/* rotacionando a 30 graus profundo*/
+
+    /*transform: skewX(20deg); /*Distorce o elemento*/
+    /*transform: skewY(20deg); /*Distorce o elemento*/   
+    transform: skew(20deg, 20deg); /* distorcendo para os 2 lados*/
+
+}

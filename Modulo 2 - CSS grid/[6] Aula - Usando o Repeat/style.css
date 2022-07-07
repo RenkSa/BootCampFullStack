@@ -1,0 +1,15 @@
+.container {
+    display: grid;
+    /*grid-template-columns: repeat(2, 100px 200px 50px); /* Exemplos de tamanhos repetidos em cada colunas */
+    grid-template-columns: repeat(3, 1fr);/* Repetindo 4 colunas com 1fr */
+    /*grid-template-columns: repeat(auto-fill, 300px);/* repetindo ate ele finalizar o tamanho */
+    gap: 20px;
+}
+
+.item {
+    background-color: #0000ff;
+    border-radius: 10px;
+    padding: 20px;
+    color: #fff;
+    font-size: 20px;
+}

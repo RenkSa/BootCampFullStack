@@ -1,0 +1,20 @@
+div {
+    background-color: #0000ff;
+    width: 100px;
+    height: 100px;
+}
+
+div:first-child {
+    /* aplicando todos os cantos */
+    /*border-radius: 20px;*/
+    
+    /* aplicando borda de cima */
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+/* Aplicando bordas nas ultimas divs */
+div:last-child {
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}

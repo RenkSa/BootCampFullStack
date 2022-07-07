@@ -1,0 +1,15 @@
+.container {
+    display: grid;
+    /*grid-template-columns: 100px 200px 100px 100px; /* colunas com tamanhos */
+    grid-template-columns: auto 200px 200px; /* tamanho das colunas */
+    grid-template-rows: 200px; /* tamanho das linhas */
+    gap: 20px;
+}
+
+.item {
+    background-color: #0000ff;
+    border-radius: 10px;
+    padding: 20px;
+    color: #fff;
+    font-size: 20px;
+}

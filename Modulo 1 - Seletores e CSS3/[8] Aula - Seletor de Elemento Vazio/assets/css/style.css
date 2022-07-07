@@ -1,0 +1,11 @@
+div {
+    margin: 20px;
+    height: 30px;
+}
+
+/* aplicando em um elemento vazio */
+
+div:empty {
+    background-color: #ff0000;
+    /*display: none;*/
+}

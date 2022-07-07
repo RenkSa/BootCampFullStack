@@ -1,0 +1,32 @@
+body {
+    text-align: center;
+}
+
+/* aplicando antes o conteudo */
+/*
+span::before {
+    content: "->";
+    background-color: #ff0000;
+    border: 1px solid #000;
+}*/
+
+/* aplicando depois o conteudo */
+/*
+span::after {
+    content: "<-";
+    background-color: #ff0000;
+    border: 1px solid #000;
+}*/
+
+div {
+    background-color: #00ff00;
+    padding: 20px;
+}
+
+div::before {
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: #ff0000;
+}

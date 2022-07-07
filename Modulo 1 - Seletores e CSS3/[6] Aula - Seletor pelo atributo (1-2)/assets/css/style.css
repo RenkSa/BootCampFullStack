@@ -1,0 +1,29 @@
+input, a {
+    display: block;
+}
+
+/* Selecionando um atributo */
+[required] {
+    background-color: #FF0000   ;
+}
+
+/* Selecionando um elemento e um atributo */
+/*
+input [required] {
+    background-color: #FF0000   ;
+}*/
+
+/* Selecionando um elemento com um tipo de type especifico */
+/*
+input [type=text] {
+    background-color: #FF0000   ;
+}*/
+
+/* Selecionando um elemento name com o valor dele */
+/*
+input [name="usuario"] {
+    background-color: #FF0000   ;
+}*/
+
+
+

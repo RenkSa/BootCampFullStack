@@ -1,0 +1,36 @@
+input, a {
+    display: block;
+}
+
+/* aplicando o inicio do href */
+a[href^="htpp:"] {
+    background-color: #0f0f0f;
+}
+
+/* aplicando o inicio do href */
+a[href^="htpps:"] {
+    background-color: #0000ff;
+}
+
+/*aplicando todos que contem o valor */
+a[href*="economia"] {
+    background-color: #ff0000;
+}
+
+a[href*="tecnologia"] {
+    background-color: #00ff00;
+}
+
+/*selecionando todos os valores conteudo final */
+a[href$="/"] { 
+    background-color: #123456;
+}
+
+
+
+
+
+
+
+
+

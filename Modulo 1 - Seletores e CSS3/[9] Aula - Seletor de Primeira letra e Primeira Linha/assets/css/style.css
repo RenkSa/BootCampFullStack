@@ -1,0 +1,10 @@
+/* selecionando so a primeira letra */
+p::first-letter {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+/* selecionando so a primeira linha */
+p::first-line {
+    background-color: yellow;
+}

@@ -1,0 +1,9 @@
+div {
+    background-color: #ff0000;
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    /*transform: scale(2, 1); /* aplicando scale */
+    /*transform: scaleX(2); /* aplicando scale horizontal */
+    transform: scaleY(2); /* aplicando scale vertical */
+}
