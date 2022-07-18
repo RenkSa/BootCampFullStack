@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,shrink-to-fit=no" />
+    <link rel="shortcut icon" href="https://getbootstrap.com/docs/5.0/assets/brand/bootstrap-logo.svg" >
+    <title>Tooltip</title>
+    <link rel="stylesheet" href="../src/assets/styles/bootstrap.min.css" />
+    <link rel="stylesheet" href="../src/assets/styles/bootstrap-grid.min.css" />
+   
+</head>
+
+<body>
+<body>
+   <div class="container">
+        <button class="btn btn-primary" 
+        data-bs-toggle="tooltip" 
+        data-bs-placement="right"
+        title="Ao clicar, salva algo"
+        >
+        Salvar
+        </button>
+     
+   </div>
+
+
+    <script type="text/javascript" src="../src/js/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="../src/js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" >
+    $(() => {
+        $("[data-bs-toggle='tooltip' ").tooltip();
+    });
+    </script>
+</body>
+
+</html>

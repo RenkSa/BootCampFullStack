@@ -1,0 +1,52 @@
+@import 'reset';
+
+nav {
+    background-color: #eee;
+    height: 100px;
+
+    ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+
+    li {
+        display: inline-block;
+
+        a {
+            display: block;
+            background-color: #ccc;
+            padding: 10px;
+            text-decoration: none;
+            color: #000;
+        }
+    }
+}
+
+%item {
+    background-color: #000;
+    height: 40px;
+    margin-bottom: 5px;
+}
+
+$item-width: 250px; /* Criando o item width em uma variavel */
+
+.item {
+    @extend %item;
+    width: $item-width;
+}
+.item-duplo {
+    @extend %item;
+    width: $item-width * 2; /* Dando exemplo de multiplicar o item duplo */ 
+}
+
+.item-metade {
+    @extend %item;
+    width: $item-width / 2; /* Dando exemplo de dividir o item */ 
+}
+
+/* Dando exemplo de triplicar*/ 
+.item-triplo {
+    @extend %item;
+    width: $item-width * 3; 
+}

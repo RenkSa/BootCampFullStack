@@ -1,0 +1,76 @@
+
+/* Grupo de Elementos */
+nav {
+    background-color: #eee;
+    height: 100px;
+
+    ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+
+    li {
+        display: inline-block;
+        
+        a {
+            display: block;
+            background-color: #ccc;
+            padding: 10px;
+            text-decoration: none;
+            color: #000;
+        }
+    }
+}
+
+/*
+%item-padrao {
+    font-size: 14px;
+    border: 1px solid #333;
+    padding: 5px;
+} 
+
+Foi utilizado como exemplo */
+
+/* Criando o mesmo exemplo para mostrar o arquivo style.css */
+%item-padrao {
+    font-size: 14px;
+    border: 1px solid #333;
+    padding: 5px;
+}
+
+
+%item-negrito {
+    font-weight: bold;
+}
+
+@for $i from 1 through 10 {
+
+    .item-#{$i}{
+        /*
+        font-size: 14px;
+        border: 1px solid #333;
+        padding: 5px; * Utilizado no item-padrao */
+
+        
+        @extend %item-padrao;
+
+
+        /* Dando um exemplo de por os 3 primeiros itens negrito */
+        @if $i <= 3 {
+            /*Colocando removendo para por extend *----
+            font-weight: bold;
+            */
+
+            @extend %item-negrito;
+        
+        }
+        
+        /* nao será necessário mais *
+        @else {
+            font-weight: normal;
+        } */
+
+    }
+
+}
